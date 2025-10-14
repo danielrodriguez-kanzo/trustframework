@@ -10,7 +10,7 @@
       "type": "JsonWebKey2020",
       "publicKeyJwk": {
         "kty": "RSA",
-        "n": "602viMuwLlxecNSMbArfkiSMH7LfJ9VVr8cFzty8FPHxe6T51rQYOjrg_C1jssnhtd3SPWxwIkd9cxfW76XZI9KGn89h7w7BwqT-TRiO_5hvWHHCi0TAfeVaJpbQKzLw26Z2jkqXiWq2z7J2dBdw-AMz6MhuM5gNQmcKBZosQN4Ynxq0V48171zpFrvH64oBKQPruY3u0g0CvsBDjAoJF7h4RuixKTDZ18P0dWfEy9nxzV6792fTSNX3eE50aEWpRNc1Z_TZbWzVj0z3gIrX6ktt9sCn-B0Kmi2ZhAGqUvb04eKOe2-jcrSSABJbS0QpfzsTsVb4H3jhp3SbS0QRGQ",
+        "n": "5VhM915xq6V8XE60qXwTChy4vzGLfTSg4znnet3KckKutk2YISxW6uu-z6mefZMnV8PBYh5AGlUns51g-0egh_Ijvg_2HkpN-8sjt2V0dPYGUB2uJAPITYHgiSUlNkbtlUt3-VmZ95iHyzm36o5nYPBnx2bIIAznKoGKlYYLo6_wr3UTd2a67DfL53T3T43vFrDKyFk8899QEKPlvXCjXl-oi-pM5uJ1MHQNOlerwi3aFOH1HarZ_Ncn3HiHqPJcLiy2hFgj7RHa8u1XisNS6QdIW4mx8GECaww2ojLGw4L2u2ZKs6CYNAYEgGaAA_JL7hxlclBVp_mS1ZOW--04gw",
         "e": "AQAB",
         "alg": "RS256",
         "x5u": "https://raw.githubusercontent.com/danielrodriguez-kanzo/trustframework/main/cert.pem"
@@ -22,3 +22,4 @@
   ]
 
 }
+
