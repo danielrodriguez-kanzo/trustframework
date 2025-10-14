@@ -10,8 +10,8 @@
       "type": "JsonWebKey2020",
       "publicKeyJwk": {
         "kty": "RSA",
-        "n": "JWK2020-RSA",
-        "e": "JWK2020-RSA",
+        "n": "602viMuwLlxecNSMbArfkiSMH7LfJ9VVr8cFzty8FPHxe6T51rQYOjrg_C1jssnhtd3SPWxwIkd9cxfW76XZI9KGn89h7w7BwqT-TRiO_5hvWHHCi0TAfeVaJpbQKzLw26Z2jkqXiWq2z7J2dBdw-AMz6MhuM5gNQmcKBZosQN4Ynxq0V48171zpFrvH64oBKQPruY3u0g0CvsBDjAoJF7h4RuixKTDZ18P0dWfEy9nxzV6792fTSNX3eE50aEWpRNc1Z_TZbWzVj0z3gIrX6ktt9sCn-B0Kmi2ZhAGqUvb04eKOe2-jcrSSABJbS0QpfzsTsVb4H3jhp3SbS0QRGQ",
+        "e": "AQAB",
         "alg": "RS256",
         "x5u": "https://raw.githubusercontent.com/danielrodriguez-kanzo/trustframework/main/cert.pem"
       }
@@ -20,4 +20,5 @@
   "assertionMethod": [
     "did:web:raw.githubusercontent.com:danielrodriguez-kanzo:trustframework:main#JWK2020-RSA"
   ]
+
 }
