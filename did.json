@@ -1,0 +1,23 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/"
+  ],
+  "id": "did:web:raw.githubusercontent.com:danielrodriguez-kanzo:trustframework:main",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:danielrodriguez-kanzo:trustframework:main#JWK2020-RSA",
+      "type": "JsonWebKey2020",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "n": "JWK2020-RSA",
+        "e": "JWK2020-RSA",
+        "alg": "RS256",
+        "x5u": "https://raw.githubusercontent.com/danielrodriguez-kanzo/trustframework/main/cert.pem"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:raw.githubusercontent.com:danielrodriguez-kanzo:trustframework:main#JWK2020-RSA"
+  ]
+}
