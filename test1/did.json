@@ -14,7 +14,7 @@
         "n": "uEalvtjdP9ZWMPfvUvKUqcu0a6xb-Ct-LtaQjnhLDXjjqhkVDexMtHnkuwcfhmiX53wE5jcsDT3ATHG4h9eizlWeq6PG1WeJW8mSOtMJzagImAqzDZNognP2kulR71JVvbApd--w0KLaXIzGTDkh_lQOvR8ZIJEFBF4ZkiyL_q_iXWL0D47sC5MYsXMlNeEjeso-u65aDMmK0I6HjnAOMSKm_WkUFW8TC2jpq1zIpzmB51cuO2ApQY9uqCl3fpGFb6jWm_o_cl-uNCYmfW_9MNyI_LzvC1awRS4RTETvgIuOHNOFMP_Sm1OmgGtloSn3GcBt9qKrdBIssTgV_8ieEQ",
         "e": "AQAB",
         "alg": "RS256",
-        "x5u": "https://raw.githubusercontent.com:danielrodriguez-kanzo:trustframework:main/test1/certs/cert.pem"
+        "x5u": "https://raw.githubusercontent.com/danielrodriguez-kanzo/trustframework/main/test1/certs/cert.pem"
       }
     },
     {
