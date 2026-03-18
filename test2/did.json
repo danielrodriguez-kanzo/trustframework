@@ -11,42 +11,28 @@
       "controller": "did:web:raw.githubusercontent.com:danielrodriguez-kanzo:trustframework:main:test2",
       "publicKeyJwk": {
         "kty": "RSA",
-        "n": "wws4fM7oL0I9cOXc6T6mL8kIxYLYQz3bFSujW8_V24BDLVw-4EP5_oCJWDsKq57PMqjCvy38dRwFU4qjjYbtoWO7VDFNdfFAIfdZLWT3oH6xvx0tgz3R4slmwd4DgOfXxq76xu2aKHQ5hokn86wHUV38cdKOTWFFO4m1cHY6uOHaeDniquaE8TiQfpPvNUvM9lrcXHZJxO5QLZPFjOi0T0ilUZZ41pMfjYE3s9AtS7oX1ZZpoLYhBHkGpJ-JIIev5wD0ZJrUY94cO8XqDqHjy5JB_FczdxENadQRhoztIIysSG3l6VohnCAqpBhEEKNxcG1DljHrALnpDSnEhBZcsQ",
+        "n": "9Bftsne-e6G15PPqxRKGDZp2ynwrmkwqsx2OCql4n16KCSAenIp-1dY_tdg1HNoxWaiSbG97Il7442Lt6nY8Wzq9efnrCFD2jsQbal-7vkQZH3IpJ3w3AwrMravb0wvA6KLu5Kb8gEHERxlSyDjCM3m7hdqDu1OZS943fx1-dZh7mLCm_IczU8ifj3QUjzhedeIm7kmXopokzosSkdyhW3oqVMGpwroy9tAdPO813qoKM901zV8JULuidJ1Sk3xcUIqIhZGQnhuZrcb6llZcTD0WYCR-BQgK3Vo_3J6MWMt_u4V8ne-VWRFqUzAJwOBu1nWXNP57CkywtfX6JC029Q",
         "e": "AQAB",
         "alg": "RS256",
-        "x5u": "https://raw.githubusercontent.com/danielrodriguez-kanzo/trustframework/main/test2/certs/cert.pem"
+        "x5u": "https://raw.githubusercontent.com:danielrodriguez-kanzo:trustframework:main/test2/certs/cert.pem"
       }
     },
     {
-      "id": "did:web:raw.githubusercontent.com:danielrodriguez-kanzo:trustframework:main:test2#EC256-key-1",
+      "id": "did:web:raw.githubusercontent.com:danielrodriguez-kanzo:trustframework:main:test2#ed25519-key-1",
       "type": "JsonWebKey2020",
       "controller": "did:web:raw.githubusercontent.com:danielrodriguez-kanzo:trustframework:main:test2",
       "publicKeyJwk": {
-        "kty": "EC",
-        "crv": "P-256",
-        "x": "6TNYpEoJ1yWWlW0tYPUCvUPU3R3R0l-m11KhHoOiHWc",
-        "y": "P0Xnb1qGnd4bqRnnk9V3W75ZPLtNftsDRdtTM8hs3IY",
-        "use": "sig"
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "9jsLPC3kyMjLCmUYg9zNvvldN-UN-DBSCtQEzC6hJXQ"
       }
     }
   ],
   "assertionMethod": [
     "did:web:raw.githubusercontent.com:danielrodriguez-kanzo:trustframework:main:test2#JWK2020-RSA",
-    "did:web:raw.githubusercontent.com:danielrodriguez-kanzo:trustframework:main:test2#EC256-key-1"
+    "did:web:raw.githubusercontent.com:danielrodriguez-kanzo:trustframework:main:test2#ed25519-key-1"
   ],
   "authentication": [
-    "did:web:raw.githubusercontent.com:danielrodriguez-kanzo:trustframework:main:test2#EC256-key-1"
-  ],
-  "service": [
-    {
-      "id": "credential-service-1",
-      "type": "CredentialService",
-      "serviceEndpoint": "https://example.org/api/credentials/v1/participants/ZGlkOndlYjpyYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tOmRhbmllbHJvZHJpZ3Vlei1rYW56bzp0cnVzdGZyYW1ld29yazptYWluOnRlc3Qy"
-    },
-    {
-      "id": "protocol-endpoint-1",
-      "type": "ProtocolEndpoint",
-      "serviceEndpoint": "https://example.org/api/dsp"
-    }
+    "did:web:raw.githubusercontent.com:danielrodriguez-kanzo:trustframework:main:test2#ed25519-key-1"
   ]
 }
