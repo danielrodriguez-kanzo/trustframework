@@ -1,0 +1,38 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/"
+  ],
+  "id": "did:web:raw.githubusercontent.com:danielrodriguez-kanzo:trustframework:main:test3",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:danielrodriguez-kanzo:trustframework:main:test3#JWK2020-RSA",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:danielrodriguez-kanzo:trustframework:main:test3",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "n": "u48_bVrcHsoX5SmzVBSnyaFTxNacvQRQUPnUHi6zVAaS4e4FbiuATJ1wsxdnKBkCpH74Yt9x8IT_eQ59K-m3i44P4kmjZLFKy8lx-Vy2CG4spgwROgAyO3HE_NFd8gY4RK6WgW1nB8-Ts94rDgK7Y2wLRt-Pz8gcHKihHY6O57Kzxl9JKbv4hJrdUfg1Tgh1NdkG1LahzdeZPll308CBez1X9Ug_Vi1Ce0It5Z-fJsfpfL5Cyvb3pYWaIXFF6Pl5GiW03qgZxfY3vwuOJRGRleZjn3Pa-kI4QfqIM5DDhYO8ZuR2WFYBb-3g8xh7F8dRqfrszEWnbiHH45jHrVQWxw",
+        "e": "AQAB",
+        "alg": "RS256",
+        "x5u": "https://raw.githubusercontent.com:danielrodriguez-kanzo:trustframework:main/test3/certs/cert.pem"
+      }
+    },
+    {
+      "id": "did:web:raw.githubusercontent.com:danielrodriguez-kanzo:trustframework:main:test3#ed25519-key-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:danielrodriguez-kanzo:trustframework:main:test3",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "Jm6WCiHRwXlu54ghjoAt0w-QaNbBMBRdoqEEQ67YOls"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:raw.githubusercontent.com:danielrodriguez-kanzo:trustframework:main:test3#JWK2020-RSA",
+    "did:web:raw.githubusercontent.com:danielrodriguez-kanzo:trustframework:main:test3#ed25519-key-1"
+  ],
+  "authentication": [
+    "did:web:raw.githubusercontent.com:danielrodriguez-kanzo:trustframework:main:test3#ed25519-key-1"
+  ]
+}
