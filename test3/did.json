@@ -11,10 +11,10 @@
       "controller": "did:web:raw.githubusercontent.com:danielrodriguez-kanzo:trustframework:main:test3",
       "publicKeyJwk": {
         "kty": "RSA",
-        "n": "u48_bVrcHsoX5SmzVBSnyaFTxNacvQRQUPnUHi6zVAaS4e4FbiuATJ1wsxdnKBkCpH74Yt9x8IT_eQ59K-m3i44P4kmjZLFKy8lx-Vy2CG4spgwROgAyO3HE_NFd8gY4RK6WgW1nB8-Ts94rDgK7Y2wLRt-Pz8gcHKihHY6O57Kzxl9JKbv4hJrdUfg1Tgh1NdkG1LahzdeZPll308CBez1X9Ug_Vi1Ce0It5Z-fJsfpfL5Cyvb3pYWaIXFF6Pl5GiW03qgZxfY3vwuOJRGRleZjn3Pa-kI4QfqIM5DDhYO8ZuR2WFYBb-3g8xh7F8dRqfrszEWnbiHH45jHrVQWxw",
+        "n": "s4PNBgE6w9YsqCxLbDa3rEa19VjUVdkbbAnjlmr-DkGlre4W0arbbswVFQY8gmU4RPycWik_RDV1MWW_DH2Eh6iA06-Kqla9GMswhD0X3YhPEbmjPNtqhBqri1VknNVnsyFp1ZMAUnNQoLhHZDk4kOniY8OgvKdWIVbRjUO-jtTETSJi44gHGJzZQeN0l-7FozTdKQv7HFMTE2hthQKPmxPKNjvYDfq5plTbpUYOwtJn6jQ5RdaGpqTiEHefw8nxtvpD8mrSZ8A5FXaMIceSY8CpWlkUCuMwclwgMcd2oko6Y4rcT5boAPDT3OjmiFFia-Puy3iLAOR_gAJFjEuEVw",
         "e": "AQAB",
         "alg": "RS256",
-        "x5u": "https://raw.githubusercontent.com:danielrodriguez-kanzo:trustframework:main/test3/certs/cert.pem"
+        "x5u": "https://https://raw.githubusercontent.com/danielrodriguez-kanzo/trustframework/main/test3/certs/cert.pem"
       }
     },
     {
@@ -24,7 +24,7 @@
       "publicKeyJwk": {
         "kty": "OKP",
         "crv": "Ed25519",
-        "x": "Jm6WCiHRwXlu54ghjoAt0w-QaNbBMBRdoqEEQ67YOls"
+        "x": "6UovcbdctGHgQ6Qj36HvSsykkjAFpbzWbHbNuWa1jOo"
       }
     }
   ],
